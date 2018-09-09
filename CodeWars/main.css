@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900i');
+body {
+  background-color: #303133;
+  font-family: 'Lato', sans-serif;
+}
+
+.excercise__container {
+  display: flex;
+  justify-content: center;
+}
+
+.excercise {
+  width: 90vw;
+  height: 30vh;
+  background-color: #1d1d1f;
+  margin-top: 20px;
+  color: #b6b6b6;
+}
+
+.excercise__title {
+  padding: 20px;
+  font-size: 1em;
+}
+
+.excercise__textarea {
+  background-color: #b6b6b6;
+  width: 90%;
+  height: 50px;
+  margin: 0 auto;
+  resize: none;
+}
+
+.input__container {
+  text-align: center
+}
