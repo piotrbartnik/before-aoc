@@ -16,20 +16,29 @@ body {
 
 .excercise {
   width: 90vw;
-  height: 30vh;
+  height: 50vh;
   background-color: #1d1d1f;
   margin-top: 20px;
   color: #b6b6b6;
 }
 
 .excercise__title {
-  padding: 20px;
+  width: 85vw;
+  padding-top: 20px;
+  margin: 0 auto;
   font-size: 1em;
+}
+
+.excercise__description {
+  width: 85vw;
+  margin: 0 auto;
+  padding: 20px 0;
+  font-size: .8em;
 }
 
 .excercise__textarea {
   background-color: #b6b6b6;
-  width: 90%;
+  width: 85vw;
   height: 50px;
   margin: 0 auto;
   resize: none;
@@ -37,4 +46,31 @@ body {
 
 .input__container {
   text-align: center
+}
+
+.excercise__resolve {
+  text-align: center;
+}
+
+.excercise__btn {
+  margin-top: 20px;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  color: #6795de;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: #91b2e7 solid 1px;
+  border-radius: 5px;
+  transition: all .5s ease-out;
+  outline:none;
+}
+
+.excercise__btn:hover {
+  color: #91b2e7;
+  background-color: #0b0c0c;
+  transition: .5s;
+}
+
+.excercise__answer--text {
+  padding-top: 40px;
 }
